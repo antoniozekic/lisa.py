@@ -26,19 +26,19 @@ import shlex
 import random
 import string
 import struct
-import thread
+import _thread
 import fnmatch
 import datetime
 import optparse
 import argparse
 import platform
-import requests
 import subprocess
 from struct import *
 from struct import pack
 from binascii import *
 from ctypes import *
 from capstone import *
+from urllib import request
 
 try:
     xrange          # Python 2
